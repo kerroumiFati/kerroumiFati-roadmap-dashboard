@@ -1,0 +1,28 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: white;
+  color: #111827; 
+}
+
+/* Dark mode styles */
+.dark html, .dark body {
+  background-color: #111827; 
+  color: white;
+}
+
+/* Optional: ensure #root also stretches full height */
+#root {
+  height: 100%;
+}
