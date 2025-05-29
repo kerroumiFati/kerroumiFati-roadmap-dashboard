@@ -28,8 +28,10 @@ python manage.py runserver
 
 ###  the frontend/:
 
-cd .\frontend\roadmap-ui\
+cd .\frontend\roadmapUi\
 npm install
+
+### run frontned:
 npm start
 
 
